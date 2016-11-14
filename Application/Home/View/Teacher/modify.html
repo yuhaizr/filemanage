@@ -1,0 +1,269 @@
+<extend name="Public:base" />
+<block name="body">
+
+	<div class="panel-body widget-shadow">
+
+		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
+		<div class="form-title">
+			<h4>修改教师信息 :</h4>
+		</div>
+		<div class="form-body col-sm-8">
+			<form class="form-horizontal" action="__URL__/save" method="POST">
+			<input type="hidden" value="{$info['id']}" class="form-control" id="id" name='id' >
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">姓名</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" id="name" name="name" value="{$info['name']}" class="form-control"   placeholder="姓名"> 
+						 </div> 
+					 </div>
+				 </div>
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">工号</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" id="number" name="number" value="{$info['number']}"  class="form-control"   placeholder="工号"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"> 
+						 </div> 
+					 </div>
+				 </div>	
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">性别</label>
+						 <div class="col-sm-6"> 
+				
+						 	<select id='sex_select' name='sex' class=''>
+						 		<option <if condition=" $info['sex'] eq '1'"> selected="selected"</if> value='1'>男</option>
+						 		<option <if condition=" $info['sex'] eq '2'"> selected="selected"</if> value='2'>女</option>
+						 	</select> 
+						 </div> 
+					 </div>
+				 </div>  
+				 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">出生年月</label>
+						 <div class="col-sm-6"> 
+						 	<input type="date" required="required" name='birthday' id="birthday" value="{$info['birthday']}" class="form-control"  placeholder="出生日期"> 
+						 </div> 
+					 </div>
+				 </div>
+
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">政治面貌</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" name='political' id="political" value="{$info['political']}" class="form-control"  placeholder="政治面貌"> 
+						 </div> 
+					 </div>
+				 </div>
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">联系电话</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" name='phone' id="phone" value="{$info['phone']}" class="form-control"  placeholder="联系电话"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"> 
+						 </div> 
+					 </div>
+				 </div>
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">家庭住址</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" name='addr' id="addr" value="{$info['addr']}" class="form-control"  placeholder="家庭住址"> 
+						 </div> 
+					 </div>
+				 </div>	
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">级别</label>
+						 
+						 <div class="col-sm-6"> 
+						    <select id='teacherlevel_select' name='level' class=''>
+						    	<foreach name='teacherlevel'  item="vo" key="key">
+						    		<option <if condition=" $info['level'] eq $key "> selected="selected"</if> value='{$key}'>{$vo}</option>
+						    	</foreach>
+						    	
+						 	</select> 
+						 </div> 
+					 </div>
+				 </div>				 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师教学发展机构</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text"  name='agency' id="agency" value="{$info['agency']}" class="form-control"  placeholder="教师教学发展机构"> 
+						 </div> 
+					 </div>
+				 </div>					 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师培训进修交流情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='trade_learn_status' id='trade_learn_status' rows="10" cols="100" >{$info.trade_learn_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>						 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师主持科研项目情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='scientific_project_status' id='scientific_project_status' rows="10" cols="100" >{$info.scientific_project_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>					 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师获得科研奖励情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='reward_status' id='reward _status' rows="10" cols="100" >{$info.reward_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>					 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师发表的论文情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='paper_status' id='paper_status' rows="10" cols="100" >{$info.paper_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>						 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师出版专著情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='publication_status' id='publication_status' rows="10" cols="100" >{$info.publication_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>						 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师专利著作权授权情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='patent_status' id='patent_status' rows="10" cols="100" >{$info.patent_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>						 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">教师主编本专业教材情况</label>
+						 <div class="col-sm-6"> 
+						 	 
+						 	<textarea name='teaching_material_status' id='teaching_material_status' rows="10" cols="100" >{$info.teaching_material_status}</textarea>
+						 </div> 
+					 </div>
+				 </div>					 
+				 
+				 			 
+			
+				 <div class='row'>
+					 <div class="col-sm-offset-4">
+					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
+					 </div>
+				 </div>
+				 
+				 </form>
+		</div>
+		 
+		</div>
+	</div>	
+
+		
+		
+
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+
+});
+
+$("#addRow").click(function(){
+
+	var add_div = $("#add_div").html();
+	$("#fieldList").append(add_div);
+});
+
+
+
+$("#fieldList").on('click','.remove-row',function(){
+	if(!confirm("您确定删除?")){
+		return false;
+	} 
+	//$(this).parent().parent().parent().attr('style',"display: none;");
+	
+	console.log($(".remove-row").length);
+	if($(".remove-row").length <= 2){
+		alert('最后一个列名不能删除');
+		return false;
+	}
+	
+	$(this).parent().parent().parent().remove();
+
+
+});
+
+/* $("#fieldList").on('keyup','.nameinput',function(){
+	var val = $(this).val();
+	if(val){
+		$flag = true;
+		var index = $('.nameinput').index(this);
+		$parent = $(this);
+		$('.nameinput').each(function($k,$v){
+			
+				if($k != index ){
+					
+				var v = $($v).val();
+				console.log(val +"=="+v);
+				if(v && (v == val)){
+					$flag = false;
+					$("#save_button").attr("disabled","disabled");
+					$(this).attr('style','border-color:red;');
+					$parent.attr('style','border-color:red;');
+				}else{
+					$(this).attr('style','border-color:#ccc;');
+					$parent.attr('style','border-color:#ccc;');
+				}
+			}
+		});
+		if($flag){
+			$("#save_button").removeAttr("disabled");
+		
+		}
+	}
+	
+}); */
+
+$("#fieldList").on('keyup','.keyinput',function(){
+	var val = $(this).val();
+	if(val){
+		$flag = true;
+		var index = $('.keyinput').index(this);
+		$parent = $(this);
+		$('.keyinput').each(function($k,$v){
+			
+				if($k != index ){
+					
+				var v = $($v).val();
+				if(v && (v == val)){
+					$parent.val(val.substring(0,val.length-1));
+					alert("键名标志不能重复");
+				}
+				
+			}
+		});
+
+	}
+	
+});
+
+
+</script>
+
+</block>
+<block name="footjs">
+
+</block>

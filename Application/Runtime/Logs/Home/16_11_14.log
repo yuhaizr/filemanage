@@ -1,0 +1,2278 @@
+[2016-11-14 00:00:01] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:modPassword
+
+[2016-11-14 00:01:25] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 00:01:30] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:04:23] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 00:04:46] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:05:35] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:06:16] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:07:20] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:09:18] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:10:12] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:10:23] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 00:10:50] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:12:43] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:24:33] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 00:24:35] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:24:47] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:24:49] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:24:52] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:25:40] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:26:13] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:26:33] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:26:44] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:27:01] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[2016-11-14 00:27:05] ::1 /filemanage/index.php/Home/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:Login
+
+[2016-11-14 00:27:22] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:27:46] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:27:50] ::1 /filemanage/index.php/Home/Index/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:Home
+
+[2016-11-14 00:28:08] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:28:12] ::1 /filemanage/index.php/Home/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:Login
+
+[2016-11-14 00:29:54] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:29:58] ::1 /filemanage/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:08] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:10] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:16] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:25] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:30:28] ::1 /filemanage/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:46] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:30:48] ::1 /filemanage/index.php/Home/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:Login
+
+[2016-11-14 00:31:06] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:31:14] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:31:16] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 00:31:20] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:31:24] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:31:32] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:31:35] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:05] ::1 /filemanage/index.php/Home/Login/checkLogin?account=super_admi&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:17] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:19] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:26] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:36] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:38] ::1 /filemanage/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 00:32:41] ::1 /filemanage/index.php/Home/Login/checkLogin?account=super_admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:51] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:32:53] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:01] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:36:03] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:12] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123456&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:14] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:20] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:36:29] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:40] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:42] ::1 /filemanage/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:36:48] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:56] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:36:57] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:03] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:05] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:37:13] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123456&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:20] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:22] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:52] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:37:53] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:01] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123456&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:03] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:38:11] ::1 /filemanage/index.php/Home/Index/modPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:20] ::1 /filemanage/index.php/Home/Index/savePassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:21] ::1 /filemanage/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:29] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123456&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:36] ::1 /filemanage/index.php/Home/Login/checkLogin?account=12345678901&password=123&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:38:37] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:39:03] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:39:14] ::1 /filemanage/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:39:16] ::1 /filemanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:39:31] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123456&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:39:38] ::1 /filemanage/index.php/Home/Login/checkLogin?account=admin&password=123&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:39:39] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:39:43] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:39:46] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:40:35] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:40:40] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 00:41:03] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 00:41:09] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:10:09] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:13:12] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 07:20:15] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:20:15] ::1 /filemanage/index.php/Home/ClassManage/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 非法操作:css
+
+[2016-11-14 07:21:13] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:21:14] ::1 /filemanage/index.php/Home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:21:43] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:21:44] ::1 /filemanage/index.php/Home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:22:16] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:22:16] ::1 /filemanage/index.php/Home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:22:35] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:22:35] ::1 /filemanage/index.php/Home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 07:24:04] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:24:44] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:25:17] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:25:56] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:26:46] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:27:10] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:28:59] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:29:20] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:29:22] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:29:46] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 07:30:40] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:31:15] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 07:31:59] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:32:35] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 07:33:04] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 21:15:22] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[2016-11-14 21:15:24] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:34:36] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+
+[2016-11-14 22:34:46] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:34:49] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:34:56] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:35:11] ::1 /filemanage/index.php/Home/ClassManage/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:35:20] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:36:06] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:36:08] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:36:18] ::1 /filemanage/index.php/Home/ClassManage/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[2016-11-14 22:41:45] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[2016-11-14 22:41:48] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 22:43:33] ::1 /filemanage/index.php/Home/Course/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:43:56] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:43:59] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 22:44:36] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:44:42] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:44:48] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:44:57] ::1 /filemanage/index.php/Home/Course/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:45:44] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:45:48] ::1 /filemanage/index.php/Home/ClassManage/modify?type=menu&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:46:00] ::1 /filemanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:46:03] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:46:06] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 22:47:38] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:13] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:48:27] ::1 /filemanage/index.php/Home/ClassManage/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:29] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:32] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:43] ::1 /filemanage/index.php/Home/ClassManage/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:45] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:47] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:48:58] ::1 /filemanage/index.php/Home/ClassManage/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 22:48:59] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:04] ::1 /filemanage/index.php/Home/ClassManage/modify?type=menu&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:49:09] ::1 /filemanage/index.php/Home/ClassManage/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:49:11] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:14] ::1 /filemanage/index.php/Home/ClassManage/modify?type=menu&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:19] ::1 /filemanage/index.php/Home/ClassManage/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:20] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:25] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:30] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:38] ::1 /filemanage/index.php/Home/Course/modify?type=menu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:43] ::1 /filemanage/index.php/Home/Course/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:45] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:55] ::1 /filemanage/index.php/Home/Course/showList?searchValue=%E8%AE%A1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:49:59] ::1 /filemanage/index.php/Home/Course/showList?searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:50:04] ::1 /filemanage/index.php/Home/Score/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:50:23] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=9&student_id=&year=2013&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:50:33] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:53:51] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:54:19] ::1 /filemanage/index.php/Home/Admin/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:54:28] ::1 /filemanage/index.php/Home/Admin/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:54:48] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 22:54:53] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:54:57] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:55:08] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:55:13] ::1 /filemanage/index.php/Home/Course/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:55:16] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:55:22] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:55:34] ::1 /filemanage/index.php/Home/Score/modify?type=menu&id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:55:51] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:57:09] ::1 /filemanage/index.php/Home/Student/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 22:57:11] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:57:29] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:57:33] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:58:54] ::1 /filemanage/index.php/Home/Student/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 22:58:56] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:04:59] ::1 /filemanage/index.php/Home/Student/modify?type=menu&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:05:05] ::1 /filemanage/index.php/Home/Student/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:05:16] ::1 /filemanage/index.php/Home/Student/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:05:17] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:05:20] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:06:16] ::1 /filemanage/index.php/Home/Student/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:06:18] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:06:24] ::1 /filemanage/index.php/Home/Teacher/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:06:33] ::1 /filemanage/index.php/Home/Course/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:06:37] ::1 /filemanage/index.php/Home/Score/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:04] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=9&student_id=&year=2010&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:07:13] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:14] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=9&year=2010&student_id=6&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:07:20] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=10&student_id=6&year=2010&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:27] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:28] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=10&year=2010&student_id=7&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:31] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=11&student_id=7&year=2010&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:07:38] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:07:39] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=8&class_id=11&year=2010&student_id=8&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:43] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:53] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:07:58] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:08:04] ::1 /filemanage/index.php/Home/Count/rankCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:08:10] ::1 /filemanage/index.php/Home/Count/rankCount?year=2016&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:08:15] ::1 /filemanage/index.php/Home/Count/rankCount?year=2010&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:08:18] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:08:21] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:08:23] ::1 /filemanage/index.php/Home/Student/modify?type=menu&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:08:59] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:09:04] ::1 /filemanage/index.php/Home/Count/rankCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:09:20] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:09:27] ::1 /filemanage/index.php/Home/Score/modify?type=menu&id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:09:43] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:09:47] ::1 /filemanage/index.php/Home/Student/modify?type=menu&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:10:03] ::1 /filemanage/index.php/Home/Count/rankCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:10:08] ::1 /filemanage/index.php/Home/Count/rankCount?year=2010&term=2&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:10:13] ::1 /filemanage/index.php/Home/Count/rankCount?year=2010&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:10:20] ::1 /filemanage/index.php/Home/Count/rankCount?year=2010&term=1&class_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:10:27] ::1 /filemanage/index.php/Home/Count/rankCount?year=2010&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:10:34] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:11:13] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:11:55] ::1 /filemanage/index.php/Home/Count/rankCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:13:21] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:14:17] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:15:01] ::1 /filemanage/index.php/Home/Student/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:15:04] ::1 /filemanage/index.php/Home/Student/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:15:08] ::1 /filemanage/index.php/Home/Student/modify?type=menu&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:15:18] ::1 /filemanage/index.php/Home/Student/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(217)  execute  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(902)  execute  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Model.class.php(455)  update  
+File:D:\WWW\filemanage\Application\Home\Controller\StudentController.class.php(94)  save  
+File:()  save  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'field list'
+
+[2016-11-14 23:16:07] ::1 /filemanage/index.php/Home/Student/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(217)  execute  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(902)  execute  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Model.class.php(455)  update  
+File:D:\WWW\filemanage\Application\Home\Controller\StudentController.class.php(94)  save  
+File:()  save  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'field list'
+
+[2016-11-14 23:16:14] ::1 /filemanage/index.php/Home/Student/modify?type=menu&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:16:23] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:16:53] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:17:00] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:17:04] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:18:03] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:18:07] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:18:16] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:18:46] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:18:49] ::1 /filemanage/index.php/Home/Score/modify?type=menu&id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:18:53] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:18:54] ::1 /filemanage/index.php/Home/Score/modify?type=menu&course_id=8&class_id=11&year=2013&student_id=8&term=1&id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:08] ::1 /filemanage/index.php/Home/Score/modify?type=menu&id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:19:11] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:13] ::1 /filemanage/index.php/Home/Score/modify?type=menu&course_id=8&class_id=10&year=2013&student_id=7&term=1&id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:18] ::1 /filemanage/index.php/Home/Score/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:23] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:28] ::1 /filemanage/index.php/Home/Score/modify?type=menu&id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:31] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:19:33] ::1 /filemanage/index.php/Home/Score/modify?type=menu&course_id=8&class_id=9&year=2013&student_id=6&term=1&id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:19:41] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:45] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:52] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:19:59] ::1 /filemanage/index.php/Home/Score/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:20:19] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=9&student_id=&year=2013&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:20:26] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:20:28] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=9&year=2013&student_id=6&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:20:34] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=10&student_id=6&year=2013&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:20:40] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:20:42] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=10&year=2013&student_id=7&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:20:48] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=11&student_id=7&year=2013&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:20:55] ::1 /filemanage/index.php/Home/Score/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:20:57] ::1 /filemanage/index.php/Home/Score/add?type=menu&course_id=10&class_id=11&year=2013&student_id=8&term=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:21:02] ::1 /filemanage/index.php/Home/Count/changeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:21:05] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:21:14] ::1 /filemanage/index.php/Home/Count/changeCount?student_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:21:23] ::1 /filemanage/index.php/Home/ClassManage/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:21:26] ::1 /filemanage/index.php/Home/ClassManage/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:21:34] ::1 /filemanage/index.php/Home/Score/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:21:44] ::1 /filemanage/index.php/Home/Score/showList?course_id=&year=&term=1&class_id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:21:48] ::1 /filemanage/index.php/Home/Score/showList?course_id=7&year=&term=1&class_id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:23:29] ::1 /filemanage/index.php/Home/Teacher/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:24:28] ::1 /filemanage/index.php/Home/Teacher/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:24:30] ::1 /filemanage/index.php/Home/Teacher/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:26:22] ::1 /filemanage/index.php/Home/Teacher/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[2016-11-14 23:26:27] ::1 /filemanage/index.php/Home/Teacher/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:27:20] ::1 /filemanage/index.php/Home/Teacher/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:27:42] ::1 /filemanage/index.php/Home/Teacher/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:28:30] ::1 /filemanage/index.php/Home/Teacher/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:28:42] ::1 /filemanage/index.php/Home/Teacher/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:28:43] ::1 /filemanage/index.php/Home/Teacher/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:28:46] ::1 /filemanage/index.php/Home/Teacher/modify?type=menu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:29:01] ::1 /filemanage/index.php/Home/Teacher/modify?type=menu&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:31:28] ::1 /filemanage/index.php/Home/Teacher/modify?type=menu&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:31:37] ::1 /filemanage/index.php/Home/Teacher/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:32:07] ::1 /filemanage/index.php/Home/Teacher/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:32:09] ::1 /filemanage/index.php/Home/Teacher/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:32:18] ::1 /filemanage/index.php/Home/TeacherCourse/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:32:33] ::1 /filemanage/index.php/Home/TeacherCourse/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:32:35] ::1 /filemanage/index.php/Home/TeacherCourse/add?type=menu&course_id=8&class_id=9&year=2013&teacher_id=6&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:32:44] ::1 /filemanage/index.php/Home/TeacherCourse/save?type=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:32:45] ::1 /filemanage/index.php/Home/TeacherCourse/add?type=menu&course_id=10&class_id=9&year=2013&teacher_id=7&term=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:32:49] ::1 /filemanage/index.php/Home/TeacherCourse/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:33:18] ::1 /filemanage/index.php/Home/TeacherCourse/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:33:25] ::1 /filemanage/index.php/Home/TeacherCourse/showList?course_id=&year=&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:33:29] ::1 /filemanage/index.php/Home/TeacherCourse/showList?course_id=&year=&term=2&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:33:34] ::1 /filemanage/index.php/Home/TeacherCourse/showList?course_id=&year=&term=1&class_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:33:43] ::1 /filemanage/index.php/Home/Teacher/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:33:47] ::1 /filemanage/index.php/Home/FileTemp/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:33:52] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:37:06] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:37:11] ::1 /filemanage/index.php/Home/FileTemp/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:38:42] ::1 /filemanage/index.php/Home/FileTemp/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:38:43] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:38:46] ::1 /filemanage/index.php/Home/FileTemp/modify?type=menu&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:39:50] ::1 /filemanage/index.php/Home/FileTemp/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:40:04] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:40:08] ::1 /filemanage/index.php/Home/FileTemp/modify?type=menu&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:40:14] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:40:19] ::1 /filemanage/index.php/Home/File/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:40:22] ::1 /filemanage/index.php/Home/File/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:40:28] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:40:40] ::1 /filemanage/index.php/Home/File/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:40:44] ::1 /filemanage/index.php/Home/File/add?type=menu&file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:41:20] ::1 /filemanage/index.php/Home/File/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:42:26] ::1 /filemanage/index.php/Home/File/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:42:30] ::1 /filemanage/index.php/Home/File/add?type=menu&file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:43:14] ::1 /filemanage/index.php/Home/File/add?file_temp_id=12&dzdwmc=%E4%BF%A1%E6%81%AF%E5%AD%A6%E9%99%A2%E5%85%9A%E6%94%AF%E9%83%A8&dwh=000001&dwzn=%E7%BB%84%E7%BB%87%E5%85%9A%E5%91%98&fwfzr=%E6%B8%B8%E6%80%9D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:43:16] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:43:32] ::1 /filemanage/index.php/Home/File/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-14 23:43:36] ::1 /filemanage/index.php/Home/File/add?type=menu&file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:43:39] ::1 /filemanage/index.php/Home/File/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:43:46] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:43:49] ::1 /filemanage/index.php/Home/File/modify?type=menu&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\View.class.php(110)  E  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\View.class.php(72)  fetch  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(56)  display  
+File:D:\WWW\filemanage\Application\Home\Controller\FileController.class.php(68)  display  
+File:()  modify  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 模板不存在:./Application/Home/View/File/modify.html
+
+[2016-11-14 23:43:58] ::1 /filemanage/index.php/Home/File/modify?type=menu&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\View.class.php(110)  E  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\View.class.php(72)  fetch  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Controller.class.php(56)  display  
+File:D:\WWW\filemanage\Application\Home\Controller\FileController.class.php(68)  display  
+File:()  modify  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: 模板不存在:./Application/Home/View/File/modify.html
+
+[2016-11-14 23:44:12] ::1 /filemanage/index.php/Home/File/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:44:16] ::1 /filemanage/index.php/Home/File/add?type=menu&file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:45:11] ::1 /filemanage/index.php/Home/File/add?type=menu&file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:45:53] ::1 /filemanage/index.php/Home/File/add?file_temp_id=12&dzdwmc=%E5%95%86%E5%AD%A6%E9%99%A2%E5%85%9A%E6%94%AF%E9%83%A8&dwh=000002&dwzn=%E7%BB%84%E7%BB%87%E5%85%9A%E5%91%98%E6%B4%BB%E5%8A%A8&fwfzr=%E6%B8%B8%E6%80%9D2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:45:55] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:16] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E5%95%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:20] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:37] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E5%95%86%E5%AD%A6%E9%99%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:42] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:48] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E6%B8%B8%E6%80%9D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:53] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:46:56] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:47:01] ::1 /filemanage/index.php/Home/FileTemp/showList?searchValue=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:47:05] ::1 /filemanage/index.php/Home/FileTemp/showList?searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:47:09] ::1 /filemanage/index.php/Home/File/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:47:16] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:47:23] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:47:32] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:47:41] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E5%85%9A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:49:22] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=dzdwmc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:49:28] ::1 /filemanage/index.php/Home/FileTemp/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:49:34] ::1 /filemanage/index.php/Home/FileTemp/showList?searchValue=%E6%94%BF%E5%8D%95%E4%BD%8D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:52:38] ::1 /filemanage/index.php/Home/File/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:52:43] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:52:49] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E6%B4%BB%E5%8A%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:52:53] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:53:05] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E7%BB%84%E7%BB%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-14 23:53:27] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E7%BB%84%E7%BB%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-11-14 23:56:38] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E7%BB%84%E7%BB%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-14 23:59:30] ::1 /filemanage/index.php/Home/File/showList?file_temp_id=12&searchValue=%E7%BB%84%E7%BB%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Model.class.php(966)  select  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Model.class.php(231)  getField  
+File:D:\WWW\filemanage\Application\Home\Model\FileModel.class.php(27)  __call  
+File:D:\WWW\filemanage\Application\Home\Model\FileModel.class.php(27)  count  
+File:D:\WWW\filemanage\Application\Home\Controller\FileController.class.php(33)  showList  
+File:()  showList  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\filemanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\filemanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\filemanage\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar)  ) AND `file_temp_id` = '12' LIMIT 1' at line 1
+

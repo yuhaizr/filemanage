@@ -1,0 +1,88 @@
+<extend name="Public:base" />
+<block name="body">
+	<div class='tables'>
+
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>学生列表</h4>
+			<form action="__URL__/showList" method="GET">
+			
+				<div class='row'>
+
+					<div class='col-sm-3'>
+						<input type="text"  name="searchValue" value="{$searchValue}" id="searchValue" class="form-control nameinput" placeholder="请输入您要搜索的学生的姓名或学号"> 
+					</div>
+					<div class='col-sm-2'>
+						<input type="submit" id="addRow" class="btn btn-default" value="搜索"> 
+					</div>	
+	
+				</div>
+			</form>	
+			<div class='row'>
+          <table class="table table-striped table-hover table-bordered" id="editabledatatable">
+	                    <thead>
+	                        <tr role="row">
+	                        	<th>序号</th>
+	                        	<th>学号</th>
+	                            <th>姓名</th>
+	                            
+	                            <th>性别</th>
+	                            <th>出生日期</th>
+	                            <th>政治面貌</th>
+	                            <th>联系电话</th>
+	                            <th>家庭住址</th>
+	                            <th>班级</th>
+	       	                    <th style="min-width: 150px">操作</th>
+	              
+	                        </tr>
+	                    </thead>
+	
+	                    <tbody id="tapeListTable">
+	                    	<foreach name="list" item="vo" key="key">
+		                        <tr>
+		                            <td>{$key+1}</td>
+		                            <td>{$vo.number}</td>
+		                            <td>{$vo.name}</td>
+		                            <td>{$vo.sex}</td>
+		                            <td>{$vo.birthday}</td>
+		                            <td>{$vo.political}</td>
+		                            <td>{$vo.phone}</td>
+		                            <td>{$vo.addr}</td>
+									<td>{$vo.class_id}</td>
+		                			<td>
+		                		
+              						<a <if condition="$my_detail_btn neq 1">  style="display: none;" </if> href="__URL__/detail?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
+           							<a <if condition="$my_modify_btn neq 1">  style="display: none;" </if> href="__URL__/modify?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_modify_btn btn btn-primary">修改</a>
+           							<a <if condition="$my_del_btn neq 1">  style="display: none;" </if> href="__URL__/del?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"    class=" my_del_btn btn btn-danger  delete">删除</a>
+                			
+		                			</td>
+		          
+		             
+		                         
+		                        </tr>
+	                        </foreach>                        
+	                    </tbody>
+	                </table>
+		    </div>
+		    <div class='row'>
+			    <div class="col-sm-6 col-sm-offset-5">
+	  				<ul class="pagination" id="pageUl">
+					{$page}
+					</ul>
+				</div>
+			</div>	
+		</div>	
+
+	</div>
+
+
+</block>
+<block name="footjs">
+<script src="__PUBLIC__/js/select2/select2.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    $("select").select2();
+
+});
+</script>
+</block>

@@ -1,0 +1,106 @@
+<extend name="Public:base" />
+<block name="body">
+
+	<div class="panel-body widget-shadow">
+
+		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
+		<div class="form-title">
+			<h4>添加班级信息 :</h4>
+		</div>
+		<div class="form-body col-sm-8">
+			<form class="form-horizontal" action="__URL__/add" method="POST">
+			<input type="hidden" value="{$info['id']}" class="form-control" id="id" name='id' >
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">班级名称</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" id="name" name="name" value="{$info['name']}" class="form-control"   placeholder="班级名称"> 
+						 </div> 
+					 </div>
+				 </div>
+				 
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">届(年)</label>
+						 <div class="col-sm-6"> 
+                               <div class="input-group">
+                                        <input class="form-control yearView" required="required" name='year' value="{$info.year}" type="text" >
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                               </div>						 
+						 
+						 	 
+						 </div> 
+					 </div>
+				 </div>
+				 
+
+				 
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">备注</label>
+						 <div class="col-sm-6"> 
+								<textarea name='mark' id='mark' rows="10" cols="100" >{$info.mark}</textarea>
+							
+						 </div> 
+					 </div>
+				 </div>  
+				 
+				
+			
+				 <div class='row'>
+					 <div class="col-sm-offset-4">
+					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
+					 </div>
+				 </div>
+				 
+				 </form>
+		</div>
+		 
+		</div>
+	</div>	
+
+		
+		
+<!--Beyond Scripts-->
+
+
+
+</block>
+<block name="footjs">
+<link href="__PUBLIC__/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+
+<!--Basic Scripts-->
+
+
+
+<!--Beyond Scripts-->
+<script src="__PUBLIC__/js/select2/select2.js"></script>
+<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>  
+
+
+<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    
+	$('.yearView').datetimepicker({
+		autoclose: true,
+		startView:4,minView:4,
+        lang:"ch",           
+        format:"yyyy",      
+        timepicker:false,  
+    
+        minDate: 0,   
+  
+        });
+	
+	
+	$('.yearView').datetimepicker('setEndDate',(new Date()).getFullYear());
+});
+
+
+
+</script>
+</block>

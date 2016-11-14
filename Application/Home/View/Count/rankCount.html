@@ -1,0 +1,115 @@
+<extend name="Public:base" />
+<block name="body">
+	<div class='tables'>
+
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>成绩排名</h4>
+			<form action="__URL__/rankCount" method="GET">
+			
+				<div class='row'>
+
+
+					 
+					  <div class="col-sm-1"> 
+                            <div class="input-group">
+                                     <input  class="form-control yearView"  name='year' id='year' value="{$info['year']}" type="text"  placeholder="届(年)">
+                                     <span class="input-group-addon">
+                                         <i class="fa fa-calendar"></i>
+                                     </span>
+                            </div>						 
+						 
+						 	 
+					</div>
+					
+					<div class="col-sm-2"> 
+  					 			
+				 		<select id='term' name='term' >
+				 			<option value="">请选择学期</option>
+				 			<option <if condition=" $info['term'] eq '1' "> selected="selected"</if> value='1'>上学期</option>
+				 			<option <if condition=" $info['term'] eq '2' "> selected="selected"</if> value='2'>下学期</option>
+				 		</select>
+				 	 
+					</div>  
+					
+					 <div class="col-sm-3"> 
+					    <select   id='class_id_select' name='class_id' >
+					    	<option value=''> 年级排名</option>
+					    	<foreach name='classList'  item="vo" key="key">
+					    		<option <if condition=" $info['class_id'] eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}排名</option>
+					    	</foreach>
+					    	
+					 	</select> 
+					 </div> 					
+					 
+					<div class='col-sm-2'>
+						<input type="submit" id="addRow" class="btn btn-default" value="搜索"> 
+					</div>	
+	
+				</div>
+			</form>	
+			<div class='row'>
+          <table class="table table-striped table-hover table-bordered" id="editabledatatable">
+	                    <thead>
+	                        <tr role="row">
+	                        	<th>排名</th>
+	                        	<th>姓名</th>
+	                            <th>班级名称</th>
+	                            <th>届（年）</th>
+	                            <th>学期</th>
+	                            
+	                            <th>总分</th>
+	            
+	       	                   <!--  <th style="min-width: 150px">操作</th> -->
+	              
+	                        </tr>
+	                    </thead>
+	
+	                    <tbody id="tapeListTable">
+	                    	<foreach name="list" item="vo" key="key">
+		                        <tr>
+		                            <td>{$key+1}</td>
+		                            <td>{$vo.name}</td>
+		                            <td>{$vo.classname}</td>
+		                            <td>{$vo.year}</td>
+		                            <td>{$vo.term}</td>
+		                            
+		                            <td>{$vo.total_score}</td>
+		              
+		        <!--         			<td>
+		                		
+              						<a <if condition="$my_detail_btn neq 1">  style="display: none;" </if> href="__URL__/detail?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
+           							<a <if condition="$my_modify_btn neq 1">  style="display: none;" </if> href="__URL__/modify?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_modify_btn btn btn-primary">修改</a>
+           							<a <if condition="$my_del_btn neq 1">  style="display: none;" </if> href="__URL__/del?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"    class=" my_del_btn btn btn-danger  delete">删除</a>
+                			
+		                			</td> -->
+		          
+		             
+		                         
+		                        </tr>
+	                        </foreach>                        
+	                    </tbody>
+	                </table>
+		    </div>
+		    <div class='row'>
+			    <div class="col-sm-6 col-sm-offset-5">
+	  				<ul class="pagination" id="pageUl">
+					{$page}
+					</ul>
+				</div>
+			</div>	
+		</div>	
+
+	</div>
+
+
+</block>
+<block name="footjs">
+<script src="__PUBLIC__/js/select2/select2.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    $("#file_temp_id").select2();
+
+});
+</script>
+</block>

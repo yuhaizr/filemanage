@@ -1,0 +1,177 @@
+<extend name="Public:base" />
+<block name="body">
+
+	<div class="panel-body widget-shadow">
+
+		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
+		<div class="form-title">
+			<h4>添加档案模板 :</h4>
+		</div>
+		<div class="form-body col-sm-8">
+			<form class="form-horizontal" action="__URL__/save" method="POST">
+			<input type="hidden" value="{$info['id']}" class="form-control" id="id" name='id' >
+				 <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">档案模板名称</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text" required="required" value="{$info['title']}" class="form-control" id="title" name='title' placeholder="档案模板名称"> 
+						 </div> 
+					 </div>
+				 </div>
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">备注</label>
+						 <div class="col-sm-6"> 
+						 	<input type="text"  class="form-control" value="{$info['mark']}" id="mark" name='mark' placeholder="备注"> 
+						 </div> 
+					 </div>
+				 </div>  
+				 <hr>
+				 <div class='row'>
+				 	<label for="name" class="col-sm-3 control-label">列名列表</label>
+				 	<div class="col-sm-1">
+				 		
+				 			<a type="submit" id="addRow" class="btn btn-default">添加列</a> 
+				 	</div>
+				 </div>
+				 
+				 <div id="fieldList">
+
+				 	<foreach name="info.name" key='key' item='vo'>
+				 	
+				 	
+				 	<div class='row feild-item'>
+				 		<div class=' col-sm-offset-2  col-sm-2'>
+				 			<input type="text" required="required" class="form-control keyinput" value="{$key}" name='key[]' placeholder="列名">
+				 		</div>
+				 		<div class="col-sm-6">
+				 			<div class="input-group">
+				 			<input type="text" required="required" class="form-control nameinput" value={$vo} name='name[]' placeholder="列名">
+				 			<span class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
+                            </div>                    
+				 		</div>
+				 	</div>
+				 	</foreach>
+				 				 					 
+				 </div>
+				 <div class='row'>
+					 <div class="col-sm-offset-4">
+					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
+					 </div>
+				 </div>
+				 
+				 </form>
+		</div>
+		 
+		</div>
+	</div>	
+	
+	<div id="add_div" style="display: none;">
+	<div class='row feild-item' >
+	 	<div class=' col-sm-offset-2  col-sm-2'>
+ 			<input type="text" required="required" class="form-control keyinput" name='key[]' placeholder="列名">
+ 		</div>
+ 		<div class=" col-sm-6">
+ 			<div class="input-group">
+ 			<input type="text" required="required" class="form-control nameinput" name='name[]' placeholder="列名">
+ 			<span class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
+            </div>                    
+ 		</div>
+
+ 	</div>
+ 	</div>
+		
+		
+
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+
+});
+
+$("#addRow").click(function(){
+
+	var add_div = $("#add_div").html();
+	$("#fieldList").append(add_div);
+});
+
+
+
+$("#fieldList").on('click','.remove-row',function(){
+	if(!confirm("您确定删除?")){
+		return false;
+	} 
+	//$(this).parent().parent().parent().attr('style',"display: none;");
+	
+	console.log($(".remove-row").length);
+	if($(".remove-row").length <= 2){
+		alert('最后一个列名不能删除');
+		return false;
+	}
+	
+	$(this).parent().parent().parent().remove();
+
+
+});
+
+/* $("#fieldList").on('keyup','.nameinput',function(){
+	var val = $(this).val();
+	if(val){
+		$flag = true;
+		var index = $('.nameinput').index(this);
+		$parent = $(this);
+		$('.nameinput').each(function($k,$v){
+			
+				if($k != index ){
+					
+				var v = $($v).val();
+				console.log(val +"=="+v);
+				if(v && (v == val)){
+					$flag = false;
+					$("#save_button").attr("disabled","disabled");
+					$(this).attr('style','border-color:red;');
+					$parent.attr('style','border-color:red;');
+				}else{
+					$(this).attr('style','border-color:#ccc;');
+					$parent.attr('style','border-color:#ccc;');
+				}
+			}
+		});
+		if($flag){
+			$("#save_button").removeAttr("disabled");
+		
+		}
+	}
+	
+}); */
+
+$("#fieldList").on('keyup','.keyinput',function(){
+	var val = $(this).val();
+	if(val){
+		$flag = true;
+		var index = $('.keyinput').index(this);
+		$parent = $(this);
+		$('.keyinput').each(function($k,$v){
+			
+				if($k != index ){
+					
+				var v = $($v).val();
+				if(v && (v == val)){
+					$parent.val(val.substring(0,val.length-1));
+					alert("键名标志不能重复");
+				}
+				
+			}
+		});
+
+	}
+	
+});
+
+
+</script>
+
+</block>
+<block name="footjs">
+
+</block>

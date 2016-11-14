@@ -1,0 +1,165 @@
+<extend name="Public:base" />
+<block name="body">
+
+	
+
+	
+	<div class='tables'>
+
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>学生成绩波动分析</h4>
+			<form action="__URL__/changeCount" method="get">
+			<div class='row'>
+				<div class="col-sm-3"> 
+				    <select  required="required" id='student_id_select' name='student_id' >
+				  
+				    	<foreach name='studentList'  item="vo" key="key">
+				    		<option <if condition=" $info['id'] eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}({$vo.id})</option>
+				    	</foreach>
+				    	
+				 	</select> 
+				 </div> 
+			
+				<div class='col-sm-2'>
+						<input type="submit"  class="btn btn-default" value="搜索"> 
+				</div>	
+			</div>
+			</form>
+			<div class='row'>
+         		<div id="main" style="height:400px"></div>
+		    </div>
+
+		</div>	
+
+	</div>
+
+
+</block>
+<block name="footjs">
+<script src="__PUBLIC__/js/select2/select2.js"></script>
+<script src="__PUBLIC__/js/echarts.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    $("#file_temp_id").select2();
+    
+    
+    $(function(){
+    	var data = {$data};
+    	var legend = {$legend};
+    	var name = "{$info['name']}";
+    	
+    	 var myChart = echarts.init(document.getElementById('main')); 
+           var option = {
+        		    title : {
+        		        text: name + '总成绩走势',
+        
+        		    },
+        		    tooltip : {
+        		        trigger: 'axis'
+        		    },
+        		    legend: {
+        		        data:legend
+        		    },
+        		    toolbox: {
+        		        show : true,
+        		        feature : {
+        		            mark : {show: true},
+        		            dataView : {show: true, readOnly: false},
+        		            magicType : {show: true, type: ['line', 'bar']},
+        		            restore : {show: true},
+        		            saveAsImage : {show: true}
+        		        }
+        		    },
+        		    calculable : true,
+        		    xAxis : [
+        		        {
+        		            type : 'category',
+        		            boundaryGap : false,
+        		            data : legend
+        		        }
+        		    ],
+        		    yAxis : [
+        		        {
+        		            type : 'value',
+        		            axisLabel : {
+        		                formatter: '{value} 分'
+        		            }
+        		        }
+        		    ],
+        		    series : [
+        		        {
+        		            name:'总成绩',
+        		            type:'line',
+        		            data:data,
+        		    /*         markPoint : {
+        		                data : [
+        		                    {type : 'max', name: '最大值'},
+        		                    {type : 'min', name: '最小值'}
+        		                ]
+        		            },
+        		            markLine : {
+        		                data : [
+        		                    {type : 'average', name: '平均值'}
+        		                ]
+        		            } */
+        		        }
+        		    ]
+        		};
+        		                    
+        	
+           option = {
+        		    title : {
+        		        text: name + '总成绩走势',
+        		    },
+        		    tooltip : {
+        		        trigger: 'axis'
+        		    },
+        		    legend: {
+        		    	data:legend
+        		    },
+        		    toolbox: {
+        		        show : true,
+        		        feature : {
+        		            mark : {show: true},
+        		            dataView : {show: true, readOnly: false},
+        		            magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+        		            restore : {show: true},
+        		            saveAsImage : {show: true}
+        		        }
+        		    },
+        		    calculable : true,
+        		    xAxis : [
+        		        {
+        		            type : 'category',
+        		            boundaryGap : false,
+        		            data:legend
+        		        }
+        		    ],
+        		    yAxis : [
+        		        {
+        		            type : 'value'
+        		        }
+        		    ],
+        		    series : [
+        		        {
+        		            name:'总成绩',
+        		            type:'line',
+        		            smooth:true,
+        		            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+        		            data:data,
+        		        },
+       		  
+        
+        		    ]
+        		};
+        		                    
+           
+           myChart.setOption(option);
+    	
+    })
+    
+
+});
+</script>
+</block>

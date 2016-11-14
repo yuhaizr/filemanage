@@ -1,0 +1,82 @@
+<extend name="Public:base" />
+<block name="body">
+	<div class='tables'>
+
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>档案模板列表</h4>
+			<form action="__URL__/showList" method="GET">
+			
+				<div class='row'>
+					<div class='col-sm-3'>
+							<input class="sb-search-input input__field--madoka" value="{$searchValue}" placeholder="模板名称" type="text" name='searchValue'>
+					</div>
+					<div class='col-sm-2'>
+						<input type="submit" id="addRow" class="btn btn-default" value="搜索"> 
+					</div>	
+	
+				</div>
+			</form>	
+			<div class='row'>
+			<table class="table table-bordered"> 
+					<thead> 
+						<tr> 
+							<th>序号</th> 
+							<th>创建时间</th> 
+							<th>模板名称</th> 
+							<th>备注</th>
+							<th>操作</th>
+						</tr> 
+					</thead> 
+					<tbody> 
+						<foreach name='list' key='key' item='vo' >
+						<tr> 
+                        	<td>{$key+1}</td>
+                            <td>{$vo.ctime}</td>
+                            <td>{$vo.title}</td>
+                            <td>{$vo.mark}
+                            
+                            
+                           
+                            </td>
+        
+                			<td>
+                	
+                			
+                			<a <if condition="$my_detail_btn neq 1">  style="display: none;" </if> href="__URL__/detail?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
+                		
+           					
+           			
+           					<a <if condition="$my_modify_btn neq 1">  style="display: none;" </if> href="__URL__/modify?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_modify_btn btn btn-primary">修改</a>
+           		
+           				
+           					<a <if condition="$my_del_btn neq 1">  style="display: none;" </if> href="__URL__/del?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"    class=" my_del_btn btn btn-danger  delete">删除</a>
+                			
+                	
+                			
+                			</td>
+						</tr>
+						</foreach>
+				    </tbody> 
+
+		    </table>
+		    </div>
+		    <div class='row'>
+			    <div class="col-sm-6 col-sm-offset-5">
+	  				<ul class="pagination" id="pageUl">
+					{$page}
+					</ul>
+				</div>
+			</div>	
+		</div>	
+
+	</div>
+
+
+</block>
+<block name="footjs">
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+});
+</script>
+</block>
