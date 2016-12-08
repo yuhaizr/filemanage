@@ -215,5 +215,63 @@ class CountModel extends BaseModel{
         return $list;
     }
     
+    
+    public function getstudentCount($startyear,$endyear){
+        $legend = array();
+        $data = array();
+        $class = M("Class");
+        $student = M("Student");
+        
+        while (true){
+            
+            $where['is_valid'] = '1';
+            $where['year'] = $startyear;
+            $student_num = 0;
+            
+            $classList =  $class->where($where)->select();
+            $classIds = '';
+          
+            if(is_array($classList) && $classList){
+                
+                foreach ($classList as $key => $val){
+                    $classIds .= "'".$val['id']."',";
+                }
+                $classIds = trim($classIds,',');
+            }
+            
+            $where = array();
+         
+            if ($classIds){
+              $sql = "SELECT count(*) as num FROM `ys_student` WHERE `is_valid` = '1'  AND ( `class_id` in ({$classIds}) )";
+        
+              $list = $student->query($sql);
+               if ($list && isset($list[0])){
+                   $student_num = intval($list[0]['num']);
+               }
+            }
+            
+            
+            $legend[] = $startyear;
+            $data[] = $student_num;
+            
+            if ($startyear >= $endyear){
+                break;
+            }
+            
+            $startyear ++;
+            
+            
+            
+        }
+        
+
+        
+        $legend = json_encode($legend);
+        $data = json_encode($data);
+        
+        
+        return array('legend'=>$legend,'data'=>$data);
+    }
+    
  
 }

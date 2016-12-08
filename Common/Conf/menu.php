@@ -113,7 +113,7 @@ return array(
             array(
                 'title' => '档案模板列表信息',
                 'link' => '/Home/FileTemp/showList',
-                'access' => '1,2'
+                'access' => '1,2,3'
             ),
             array(
                 'title' => '添加专业档案数据',
@@ -123,7 +123,7 @@ return array(
             array(
                 'title' => '专业档案数据列表',
                 'link' => '/Home/File/showList',
-                'access' => '1,2'
+                'access' => '1,2,3'
             ),
         )
     ),
@@ -140,6 +140,11 @@ return array(
             array(
                 'title' => '学生成绩排名',
                 'link' => '/Home/Count/rankCount',
+                'access' => '1,2,3'
+            ),            
+            array(
+                'title' => '学生人数走势图',
+                'link' => '/Home/Count/studentCount',
                 'access' => '1,2,3'
             ),            
             

@@ -24,6 +24,7 @@ class FileTempController extends BaseController {
         if (isset($id) && $id){
             $where['id'] = $id;
             $info = $model->where($where)->find();
+            $info['name'] = json_decode($info['name'],1);
             $this->assign('info',$info);
         }else{
             $this->error('id缺失');

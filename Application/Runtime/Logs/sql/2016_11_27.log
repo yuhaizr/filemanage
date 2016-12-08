@@ -1,0 +1,5 @@
+2016-11-27 00:24:01  2016-11-27 00:24:01  0
+  SELECT count(*) as num FROM `ys_student` WHERE `is_valid` = '1'  AND ( `class_id` in ('9','10','11') )
+
+
+

@@ -44,9 +44,27 @@ class FileController extends BaseController {
     public function detail(){
         $model = M('File');
         $id = I('id');
+  
         if (isset($id) && $id){
             $where['id'] = $id;
             $info = $model->where($where)->find();
+            $fileTempModel = new FileTempModel();
+            $info['fileTempList'] = $fileTempModel->getFileTempList();
+            $info['name'] = json_decode($info['name'],1);
+            $file_temp_id = $info['file_temp_id'];
+            
+            if (isset($file_temp_id) && $file_temp_id){
+                $fileTemp = M('file_temp');
+                $where['id'] = $file_temp_id;
+                $tempinfo = $fileTemp->where($where)->find();
+                $tempinfo['name'] = json_decode($tempinfo['name'],1);
+                //var_dump($tempinfo);exit();
+                $this->assign('tempinfo',$tempinfo);
+            }else{
+                $this->assign('tempinfo',array());
+            }
+            $info['value'] = json_decode($info['value'],1);
+
             $this->assign('info',$info);
         }else{
             $this->error('id缺失');
@@ -60,7 +78,23 @@ class FileController extends BaseController {
         if (isset($id) && $id){
             $where['id'] = $id;
             $info = $model->where($where)->find();
-    
+            $fileTempModel = new FileTempModel();
+            $info['fileTempList'] = $fileTempModel->getFileTempList();
+            $info['name'] = json_decode($info['name'],1);
+            $file_temp_id = $info['file_temp_id'];
+            
+            if (isset($file_temp_id) && $file_temp_id){
+                $fileTemp = M('file_temp');
+                $where['id'] = $file_temp_id;
+                $tempinfo = $fileTemp->where($where)->find();
+                $tempinfo['name'] = json_decode($tempinfo['name'],1);
+                //var_dump($tempinfo);exit();
+                $this->assign('tempinfo',$tempinfo);
+            }else{
+                $this->assign('tempinfo',array());
+            }
+            $info['value'] = json_decode($info['value'],1);
+
             $this->assign('info',$info);
         }else{
             $this->error('id缺失');
@@ -110,20 +144,23 @@ class FileController extends BaseController {
     
     public function save(){
         $id = I('id');
-        $data = $_POST;
+        $file_temp_id = I("file_temp_id");
+        $data = $_GET;
         $model = M('File');
-        $this->check($data,"modify?id=".$id);
-    
-        $data['name'] = json_encode($data['name']);
+        $this->check($data,"modify?id=".$id."&file_temp_id={$file_temp_id}");
+   
+        
         if (isset($id) && $id){
-    
+            unset($data['id']);
+            unset($data['file_temp_id']);
+            $savedata['value'] = json_encode($data);
             $where['id'] = $id;
-            $res = $model->where($where)->save($data);
+            $res = $model->where($where)->save($savedata);
              
             if ($res === false){
                 $this->error('保存失败');
             }else{
-                $this->success('保存成功','showList');
+                $this->success('保存成功',"showList?id=".$id."&file_temp_id={$file_temp_id}");
             }
     
     

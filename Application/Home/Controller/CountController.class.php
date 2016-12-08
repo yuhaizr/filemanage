@@ -86,6 +86,36 @@ class CountController extends BaseController {
         
         $this->display();
     }
+    
+    public function studentCount(){
+        $info['endyear'] = I('endyear');
+        $info['startyear'] = I('startyear');
+        if (!isset($info['endyear']) || !$info['endyear']){
+            $info['endyear'] = date("Y");
+        }   
+        if (!isset($info['startyear']) || !$info['startyear']){
+            $info['startyear'] = $info['endyear'] - 5;
+        }
+        
+        
+        if ($info['startyear'] > $info['endyear']){
+            $this->error("开始年份不能大于结束年份","studentCount");
+        }
+        
+        $countModel = new CountModel();
+    
+        $res = $countModel->getstudentCount($info['startyear'],$info['endyear']);
+      
+        $this->assign('legend',$res['legend']);
+        $this->assign('data',$res['data']);
+        
+
+   
+        $this->assign('info',$info);
+        
+        $this->display();
+        
+    }
   
 }
     

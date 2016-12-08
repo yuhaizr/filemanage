@@ -5,61 +5,62 @@
 
 		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 		<div class="form-title">
-			<h4>档案数据详情 :</h4>
+			<h4>添加档案模板 :</h4>
 		</div>
 		<div class="form-body col-sm-8">
-			
+<!-- 			<form class="form-horizontal" action="__URL__/save" method="POST">
+			<input type="hidden" value="{$info['id']}" class="form-control" id="id" name='id' > -->
 				 <div class='row'>
 					 <div class="form-group "> 
 						 <label for="name" class="col-sm-3 control-label">档案模板名称</label>
 						 <div class="col-sm-6"> 
-						 	<select disabled="disabled" required="required" id="file_temp_id" name='file_temp_id'  style="width:100%;">
-						 		<option value="" />请选择你要添加的模板
-						 		<foreach name="info['fileTempList']" item ="vo" key="key"> 
-						 			<option <if condition="$vo['id'] eq $info['file_temp_id'] "> selected="delected"</if> value="{$vo.id}" />{$vo.title}
-						 		</foreach>
-						 	</select> 
+						 	<input disabled="disabled" type="text" required="required" value="{$info['title']}" class="form-control" id="title" name='title' placeholder="档案模板名称"> 
 						 </div> 
 					 </div>
 				 </div>
-
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">备注</label>
+						 <div class="col-sm-6"> 
+						 	<input disabled="disabled" type="text"  class="form-control" value="{$info['mark']}" id="mark" name='mark' placeholder="备注"> 
+						 </div> 
+					 </div>
+				 </div>  
 				 <hr>
-<!-- 				 <div class='row'>
-				 	<label for="name" class="col-sm-3 control-label">数据录入</label>
+				 <div class='row'>
+				 	<label for="name" class="col-sm-3 control-label">列名列表</label>
 				 	<div class="col-sm-1">
 				 		
-				 			<a type="submit" id="addRow" class="btn btn-default">添加列</a> 
+				 			<!-- <a type="submit" id="addRow" class="btn btn-default">添加列</a>  -->
 				 	</div>
-				 </div> -->
-		
-				 <form class="form-horizontal" action="__URL__/save" method="GET">
-				 <input type="hidden" name='id' value="{$info['id']}">
-				  <input type="hidden" name='file_temp_id' value="{$info['file_temp_id']}">
+				 </div>
 				 
 				 <div id="fieldList">
-				  <foreach name="tempinfo.name" key='key' item='vo'>
+
+				 	<foreach name="info.name" key='key' item='vo'>
 				 	
 				 	
 				 	<div class='row feild-item'>
 				 		<div class=' col-sm-offset-2  col-sm-2'>
-				 			<input type="text" disabled="disabled" required="required" class="form-control keyinput" value="{$vo}"   placeholder="列名">
+				 			<input disabled="disabled" type="text" required="required" class="form-control keyinput" value="{$key}" name='key[]' placeholder="列名">
 				 		</div>
 				 		<div class="col-sm-6">
 				 			<div class="input-group">
-				 			<input disabled="disabled" type="text" required="required" class="form-control nameinput" id="{$key}" name='{$key}' placeholder="" value="{$info['value'][$key]}">
-				 			<span style="display: none;" class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
+				 			<input disabled="disabled" type="text" required="required" class="form-control nameinput" value={$vo} name='name[]' placeholder="列名">
+				 			<span class="input-group-addon remove-row"></span>
                             </div>                    
 				 		</div>
 				 	</div>
-				 	</foreach>		 					 
+				 	</foreach>
+				 				 					 
 				 </div>
-	<!-- 			 <div class='row'>
+		<!-- 		 <div class='row'>
 					 <div class="col-sm-offset-4">
 					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
 					 </div>
-				 </div> -->
+				 </div>
 				 
-				 </form>
+				 </form> -->
 		</div>
 		 
 		</div>
@@ -80,11 +81,11 @@
  	</div>
  	</div>
 		
+		
 
 <script type="text/javascript">
 $(document).ready(function () {
     //$("#registrationForm").bootstrapValidator();
-    $("#file_temp_id").select2();
 
 });
 
@@ -94,12 +95,7 @@ $("#addRow").click(function(){
 	$("#fieldList").append(add_div);
 });
 
-$("#file_temp_id").change(function(){
-	$file_temp_id = $('#file_temp_id option:selected').val();
-	if($file_temp_id){
-		location.href = "__URL__/add?type=menu&file_temp_id="+$file_temp_id;
-	}
-});
+
 
 $("#fieldList").on('click','.remove-row',function(){
 	if(!confirm("您确定删除?")){
@@ -149,8 +145,6 @@ $("#fieldList").on('click','.remove-row',function(){
 	
 }); */
 
-
-
 $("#fieldList").on('keyup','.keyinput',function(){
 	var val = $(this).val();
 	if(val){
@@ -178,8 +172,6 @@ $("#fieldList").on('keyup','.keyinput',function(){
 </script>
 
 </block>
-
 <block name="footjs">
 
-<script src="__PUBLIC__/js/select2/select2.js"></script>
 </block>

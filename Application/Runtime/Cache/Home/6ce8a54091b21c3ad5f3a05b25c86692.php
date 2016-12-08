@@ -138,52 +138,58 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 		<div class="form-title">
-			<h4>添加档案数据 :</h4>
+			<h4>添加档案模板 :</h4>
 		</div>
 		<div class="form-body col-sm-8">
-			<form class="form-horizontal" action="/filemanage/index.php/Home/File/add" method="GET">
+<!-- 			<form class="form-horizontal" action="/filemanage/index.php/Home/FileTemp/save" method="POST">
+			<input type="hidden" value="<?php echo ($info['id']); ?>" class="form-control" id="id" name='id' > -->
 				 <div class='row'>
 					 <div class="form-group "> 
 						 <label for="name" class="col-sm-3 control-label">档案模板名称</label>
 						 <div class="col-sm-6"> 
-						 	<select required="required" id="file_temp_id" name='file_temp_id'  style="width:100%;">
-						 		<option value="" />请选择你要添加的模板
-						 		<?php if(is_array($info['fileTempList'])): foreach($info['fileTempList'] as $key=>$vo): ?><option <?php if($vo['id'] == $file_temp_id ): ?>selected="delected"<?php endif; ?> value="<?php echo ($vo["id"]); ?>" /><?php echo ($vo["title"]); endforeach; endif; ?>
-						 	</select> 
+						 	<input disabled="disabled" type="text" required="required" value="<?php echo ($info['title']); ?>" class="form-control" id="title" name='title' placeholder="档案模板名称"> 
 						 </div> 
 					 </div>
 				 </div>
-
+				  <div class='row'>
+					 <div class="form-group "> 
+						 <label for="name" class="col-sm-3 control-label">备注</label>
+						 <div class="col-sm-6"> 
+						 	<input disabled="disabled" type="text"  class="form-control" value="<?php echo ($info['mark']); ?>" id="mark" name='mark' placeholder="备注"> 
+						 </div> 
+					 </div>
+				 </div>  
 				 <hr>
-<!-- 				 <div class='row'>
-				 	<label for="name" class="col-sm-3 control-label">数据录入</label>
+				 <div class='row'>
+				 	<label for="name" class="col-sm-3 control-label">列名列表</label>
 				 	<div class="col-sm-1">
 				 		
-				 			<a type="submit" id="addRow" class="btn btn-default">添加列</a> 
+				 			<!-- <a type="submit" id="addRow" class="btn btn-default">添加列</a>  -->
 				 	</div>
-				 </div> -->
-		
+				 </div>
 				 
 				 <div id="fieldList">
-				  <?php if(is_array($tempinfo["name"])): foreach($tempinfo["name"] as $key=>$vo): ?><div class='row feild-item'>
+
+				 	<?php if(is_array($info["name"])): foreach($info["name"] as $key=>$vo): ?><div class='row feild-item'>
 				 		<div class=' col-sm-offset-2  col-sm-2'>
-				 			<input type="text" disabled="disabled" required="required" class="form-control keyinput" value="<?php echo ($vo); ?>" name='key_input'  placeholder="列名">
+				 			<input disabled="disabled" type="text" required="required" class="form-control keyinput" value="<?php echo ($key); ?>" name='key[]' placeholder="列名">
 				 		</div>
 				 		<div class="col-sm-6">
 				 			<div class="input-group">
-				 			<input type="text" required="required" class="form-control nameinput" id="<?php echo ($key); ?>" name='<?php echo ($key); ?>' placeholder="">
-				 			<span style="display: none;" class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
+				 			<input disabled="disabled" type="text" required="required" class="form-control nameinput" value=<?php echo ($vo); ?> name='name[]' placeholder="列名">
+				 			<span class="input-group-addon remove-row"></span>
                             </div>                    
 				 		</div>
-				 	</div><?php endforeach; endif; ?>		 					 
+				 	</div><?php endforeach; endif; ?>
+				 				 					 
 				 </div>
-				 <div class='row'>
+		<!-- 		 <div class='row'>
 					 <div class="col-sm-offset-4">
 					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
 					 </div>
 				 </div>
 				 
-				 </form>
+				 </form> -->
 		</div>
 		 
 		</div>
@@ -204,11 +210,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
  	</div>
  	</div>
 		
+		
 
 <script type="text/javascript">
 $(document).ready(function () {
     //$("#registrationForm").bootstrapValidator();
-    $("#file_temp_id").select2();
 
 });
 
@@ -218,12 +224,7 @@ $("#addRow").click(function(){
 	$("#fieldList").append(add_div);
 });
 
-$("#file_temp_id").change(function(){
-	$file_temp_id = $('#file_temp_id option:selected').val();
-	if($file_temp_id){
-		location.href = "/filemanage/index.php/Home/File/add?type=menu&file_temp_id="+$file_temp_id;
-	}
-});
+
 
 $("#fieldList").on('click','.remove-row',function(){
 	if(!confirm("您确定删除?")){
@@ -272,8 +273,6 @@ $("#fieldList").on('click','.remove-row',function(){
 	}
 	
 }); */
-
-
 
 $("#fieldList").on('keyup','.keyinput',function(){
 	var val = $(this).val();
@@ -390,7 +389,6 @@ $("#fieldList").on('keyup','.keyinput',function(){
 	   
    
 
-<script src="/filemanage/Public/js/select2/select2.js"></script>
 
 </body>
 </html>

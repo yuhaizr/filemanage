@@ -134,172 +134,50 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			<div class="main-page">
 					
 
-	<div class="panel-body widget-shadow">
-
-		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
-		<div class="form-title">
-			<h4>添加档案数据 :</h4>
-		</div>
-		<div class="form-body col-sm-8">
-			<form class="form-horizontal" action="/filemanage/index.php/Home/File/add" method="GET">
-				 <div class='row'>
-					 <div class="form-group "> 
-						 <label for="name" class="col-sm-3 control-label">档案模板名称</label>
-						 <div class="col-sm-6"> 
-						 	<select required="required" id="file_temp_id" name='file_temp_id'  style="width:100%;">
-						 		<option value="" />请选择你要添加的模板
-						 		<?php if(is_array($info['fileTempList'])): foreach($info['fileTempList'] as $key=>$vo): ?><option <?php if($vo['id'] == $file_temp_id ): ?>selected="delected"<?php endif; ?> value="<?php echo ($vo["id"]); ?>" /><?php echo ($vo["title"]); endforeach; endif; ?>
-						 	</select> 
-						 </div> 
-					 </div>
-				 </div>
-
-				 <hr>
-<!-- 				 <div class='row'>
-				 	<label for="name" class="col-sm-3 control-label">数据录入</label>
-				 	<div class="col-sm-1">
-				 		
-				 			<a type="submit" id="addRow" class="btn btn-default">添加列</a> 
-				 	</div>
-				 </div> -->
-		
-				 
-				 <div id="fieldList">
-				  <?php if(is_array($tempinfo["name"])): foreach($tempinfo["name"] as $key=>$vo): ?><div class='row feild-item'>
-				 		<div class=' col-sm-offset-2  col-sm-2'>
-				 			<input type="text" disabled="disabled" required="required" class="form-control keyinput" value="<?php echo ($vo); ?>" name='key_input'  placeholder="列名">
-				 		</div>
-				 		<div class="col-sm-6">
-				 			<div class="input-group">
-				 			<input type="text" required="required" class="form-control nameinput" id="<?php echo ($key); ?>" name='<?php echo ($key); ?>' placeholder="">
-				 			<span style="display: none;" class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
-                            </div>                    
-				 		</div>
-				 	</div><?php endforeach; endif; ?>		 					 
-				 </div>
-				 <div class='row'>
-					 <div class="col-sm-offset-4">
-					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
-					 </div>
-				 </div>
-				 
-				 </form>
-		</div>
-		 
-		</div>
-	</div>	
 	
-	<div id="add_div" style="display: none;">
-	<div class='row feild-item' >
-	 	<div class=' col-sm-offset-2  col-sm-2'>
- 			<input type="text" required="required" class="form-control keyinput" name='key[]' placeholder="列名">
- 		</div>
- 		<div class=" col-sm-6">
- 			<div class="input-group">
- 			<input type="text" required="required" class="form-control nameinput" name='name[]' placeholder="列名">
- 			<span class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
-            </div>                    
- 		</div>
 
- 	</div>
- 	</div>
-		
-
-<script type="text/javascript">
-$(document).ready(function () {
-    //$("#registrationForm").bootstrapValidator();
-    $("#file_temp_id").select2();
-
-});
-
-$("#addRow").click(function(){
-
-	var add_div = $("#add_div").html();
-	$("#fieldList").append(add_div);
-});
-
-$("#file_temp_id").change(function(){
-	$file_temp_id = $('#file_temp_id option:selected').val();
-	if($file_temp_id){
-		location.href = "/filemanage/index.php/Home/File/add?type=menu&file_temp_id="+$file_temp_id;
-	}
-});
-
-$("#fieldList").on('click','.remove-row',function(){
-	if(!confirm("您确定删除?")){
-		return false;
-	} 
-	//$(this).parent().parent().parent().attr('style',"display: none;");
 	
-	console.log($(".remove-row").length);
-	if($(".remove-row").length <= 2){
-		alert('最后一个列名不能删除');
-		return false;
-	}
-	
-	$(this).parent().parent().parent().remove();
+	<div class='tables'>
 
-
-});
-
-/* $("#fieldList").on('keyup','.nameinput',function(){
-	var val = $(this).val();
-	if(val){
-		$flag = true;
-		var index = $('.nameinput').index(this);
-		$parent = $(this);
-		$('.nameinput').each(function($k,$v){
-			
-				if($k != index ){
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>学生人数走势图</h4>
+			<form action="/filemanage/index.php/Home/Count/studentCount" method="get">
+			<div class='row'>
+				  <div class="col-sm-2"> 
+                            <div class="input-group">
+                                     <input required="required"  class="form-control yearView"  name='startyear' id='startyear' value="<?php echo ($info['startyear']); ?>" type="text"  placeholder="开始年份">
+                                     <span class="input-group-addon">
+                                         <i class="fa fa-calendar"></i>
+                                     </span>
+                            </div>						 
+						 
+						 	 
+					</div>
 					
-				var v = $($v).val();
-				console.log(val +"=="+v);
-				if(v && (v == val)){
-					$flag = false;
-					$("#save_button").attr("disabled","disabled");
-					$(this).attr('style','border-color:red;');
-					$parent.attr('style','border-color:red;');
-				}else{
-					$(this).attr('style','border-color:#ccc;');
-					$parent.attr('style','border-color:#ccc;');
-				}
-			}
-		});
-		if($flag){
-			$("#save_button").removeAttr("disabled");
-		
-		}
-	}
-	
-}); */
-
-
-
-$("#fieldList").on('keyup','.keyinput',function(){
-	var val = $(this).val();
-	if(val){
-		$flag = true;
-		var index = $('.keyinput').index(this);
-		$parent = $(this);
-		$('.keyinput').each(function($k,$v){
+					<div class="col-sm-2"> 
+                            <div class="input-group">
+                                     <input required="required"  class="form-control yearView"  name='endyear' id='endyear' value="<?php echo ($info['endyear']); ?>" type="text"  placeholder="结束年份">
+                                     <span class="input-group-addon">
+                                         <i class="fa fa-calendar"></i>
+                                     </span>
+                            </div>						 
+						 
+						 	 
+					</div>
 			
-				if($k != index ){
-					
-				var v = $($v).val();
-				if(v && (v == val)){
-					$parent.val(val.substring(0,val.length-1));
-					alert("键名标志不能重复");
-				}
-				
-			}
-		});
+				<div class='col-sm-2'>
+						<input type="submit"  class="btn btn-default" value="搜索"> 
+				</div>	
+			</div>
+			</form>
+			<div class='row'>
+         		<div id="main" style="height:400px"></div>
+		    </div>
 
-	}
-	
-});
+		</div>	
 
+	</div>
 
-</script>
 
 
 			</div>
@@ -389,8 +267,69 @@ $("#fieldList").on('keyup','.keyinput',function(){
 	</script>
 	   
    
-
 <script src="/filemanage/Public/js/select2/select2.js"></script>
+<script src="/filemanage/Public/js/echarts.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    $("#file_temp_id").select2();
+    
+    
+    $(function(){
+    	var data = <?php echo ($data); ?>;
+    	var legend = <?php echo ($legend); ?>;
+    
+    	
+    	 var myChart = echarts.init(document.getElementById('main')); 
+
+        		                    
+        	
+           option = {
+        		    title : {
+        		        text: '学生人数走势',
+        		    },
+        		    tooltip : {
+        		        trigger: 'axis'
+        		    },
+        		    legend: {
+        		    	data:legend
+        		    },
+     
+        		    calculable : true,
+        		    xAxis : [
+        		        {
+        		            type : 'category',
+        		            boundaryGap : false,
+        		            data:legend
+        		        }
+        		    ],
+        		    yAxis : [
+        		        {
+        		        	name:'人数',
+        		            type : 'value'
+        		        }
+        		    ],
+        		    series : [
+        		        {
+        		            name:'人数',
+        		            type:'line',
+        		            smooth:true,
+        		            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+        		            data:data,
+        		        },
+       		  
+        
+        		    ]
+        		};
+        		                    
+           
+           myChart.setOption(option);
+    	
+    })
+    
+
+});
+</script>
 
 </body>
 </html>

@@ -138,17 +138,17 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 		<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 		<div class="form-title">
-			<h4>添加档案数据 :</h4>
+			<h4>档案数据详情 :</h4>
 		</div>
 		<div class="form-body col-sm-8">
-			<form class="form-horizontal" action="/filemanage/index.php/Home/File/add" method="GET">
+			
 				 <div class='row'>
 					 <div class="form-group "> 
 						 <label for="name" class="col-sm-3 control-label">档案模板名称</label>
 						 <div class="col-sm-6"> 
-						 	<select required="required" id="file_temp_id" name='file_temp_id'  style="width:100%;">
+						 	<select disabled="disabled" required="required" id="file_temp_id" name='file_temp_id'  style="width:100%;">
 						 		<option value="" />请选择你要添加的模板
-						 		<?php if(is_array($info['fileTempList'])): foreach($info['fileTempList'] as $key=>$vo): ?><option <?php if($vo['id'] == $file_temp_id ): ?>selected="delected"<?php endif; ?> value="<?php echo ($vo["id"]); ?>" /><?php echo ($vo["title"]); endforeach; endif; ?>
+						 		<?php if(is_array($info['fileTempList'])): foreach($info['fileTempList'] as $key=>$vo): ?><option <?php if($vo['id'] == $info['file_temp_id'] ): ?>selected="delected"<?php endif; ?> value="<?php echo ($vo["id"]); ?>" /><?php echo ($vo["title"]); endforeach; endif; ?>
 						 	</select> 
 						 </div> 
 					 </div>
@@ -163,25 +163,28 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				 	</div>
 				 </div> -->
 		
+				 <form class="form-horizontal" action="/filemanage/index.php/Home/File/save" method="GET">
+				 <input type="hidden" name='id' value="<?php echo ($info['id']); ?>">
+				  <input type="hidden" name='file_temp_id' value="<?php echo ($info['file_temp_id']); ?>">
 				 
 				 <div id="fieldList">
 				  <?php if(is_array($tempinfo["name"])): foreach($tempinfo["name"] as $key=>$vo): ?><div class='row feild-item'>
 				 		<div class=' col-sm-offset-2  col-sm-2'>
-				 			<input type="text" disabled="disabled" required="required" class="form-control keyinput" value="<?php echo ($vo); ?>" name='key_input'  placeholder="列名">
+				 			<input type="text" disabled="disabled" required="required" class="form-control keyinput" value="<?php echo ($vo); ?>"   placeholder="列名">
 				 		</div>
 				 		<div class="col-sm-6">
 				 			<div class="input-group">
-				 			<input type="text" required="required" class="form-control nameinput" id="<?php echo ($key); ?>" name='<?php echo ($key); ?>' placeholder="">
+				 			<input disabled="disabled" type="text" required="required" class="form-control nameinput" id="<?php echo ($key); ?>" name='<?php echo ($key); ?>' placeholder="" value="<?php echo ($info['value'][$key]); ?>">
 				 			<span style="display: none;" class="input-group-addon remove-row"><i class="glyphicon glyphicon-remove"></i></span>
                             </div>                    
 				 		</div>
 				 	</div><?php endforeach; endif; ?>		 					 
 				 </div>
-				 <div class='row'>
+	<!-- 			 <div class='row'>
 					 <div class="col-sm-offset-4">
 					 <button  id='save_button' type="submit" class="btn btn-default">保存</button> 
 					 </div>
-				 </div>
+				 </div> -->
 				 
 				 </form>
 		</div>

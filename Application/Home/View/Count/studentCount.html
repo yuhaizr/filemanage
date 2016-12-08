@@ -1,0 +1,114 @@
+<extend name="Public:base" />
+<block name="body">
+
+	
+
+	
+	<div class='tables'>
+
+		<div class="bs-example widget-shadow" data-example-id="bordered-table"> 
+			<h4>学生人数走势图</h4>
+			<form action="__URL__/studentCount" method="get">
+			<div class='row'>
+				  <div class="col-sm-2"> 
+                            <div class="input-group">
+                                     <input required="required"  class="form-control yearView"  name='startyear' id='startyear' value="{$info['startyear']}" type="text"  placeholder="开始年份">
+                                     <span class="input-group-addon">
+                                         <i class="fa fa-calendar"></i>
+                                     </span>
+                            </div>						 
+						 
+						 	 
+					</div>
+					
+					<div class="col-sm-2"> 
+                            <div class="input-group">
+                                     <input required="required"  class="form-control yearView"  name='endyear' id='endyear' value="{$info['endyear']}" type="text"  placeholder="结束年份">
+                                     <span class="input-group-addon">
+                                         <i class="fa fa-calendar"></i>
+                                     </span>
+                            </div>						 
+						 
+						 	 
+					</div>
+			
+				<div class='col-sm-2'>
+						<input type="submit"  class="btn btn-default" value="搜索"> 
+				</div>	
+			</div>
+			</form>
+			<div class='row'>
+         		<div id="main" style="height:400px"></div>
+		    </div>
+
+		</div>	
+
+	</div>
+
+
+</block>
+<block name="footjs">
+<script src="__PUBLIC__/js/select2/select2.js"></script>
+<script src="__PUBLIC__/js/echarts.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //$("#registrationForm").bootstrapValidator();
+    $("#file_temp_id").select2();
+    
+    
+    $(function(){
+    	var data = {$data};
+    	var legend = {$legend};
+    
+    	
+    	 var myChart = echarts.init(document.getElementById('main')); 
+
+        		                    
+        	
+           option = {
+        		    title : {
+        		        text: '学生人数走势',
+        		    },
+        		    tooltip : {
+        		        trigger: 'axis'
+        		    },
+        		    legend: {
+        		    	data:legend
+        		    },
+     
+        		    calculable : true,
+        		    xAxis : [
+        		        {
+        		            type : 'category',
+        		            boundaryGap : false,
+        		            data:legend
+        		        }
+        		    ],
+        		    yAxis : [
+        		        {
+        		        	name:'人数',
+        		            type : 'value'
+        		        }
+        		    ],
+        		    series : [
+        		        {
+        		            name:'人数',
+        		            type:'line',
+        		            smooth:true,
+        		            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+        		            data:data,
+        		        },
+       		  
+        
+        		    ]
+        		};
+        		                    
+           
+           myChart.setOption(option);
+    	
+    })
+    
+
+});
+</script>
+</block>
